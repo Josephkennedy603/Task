@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        background-color: black;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 30px;
+      }
+
+      .navbar a,
+      button {
+        color: rgb(230, 195, 131);
+        background-color: black;
+        text-decoration: none;
+      }
+
+      .navbar button {
+        border: 2px solid rgb(230, 195, 131);
+      }
+
+      .footer {
+        background-color: black;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 0 10px 0;
+        position: fixed;
+        bottom: 0;
+      }
+
+      .footer p {
+        color: white;
+      }
+
+      .cards {
+        box-shadow: 0 0 40px black;
+      }
+
+      .cards img {
+        width: 250px;
+        height: 190px;
+      }
+
+      .cards-containers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="">Home</a>
+      <a href="./about.html">About</a>
+      <a href=""><button>Login</button></a>
+    </nav>
+
+    <div class="cards-containers">
+      <div class="cards">
+        <div>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/51dRoa85BNL._SY300_SX300_QL70_FMwebp_.jpg"
+            alt=""
+          />
+          <p style="text-align: center">Samsung</p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div>
+          <img
+            ;
+            src="https://m.media-amazon.com/images/I/51eiFYQhwBL._SY300_SX300_QL70_FMwebp_.jpg"
+            alt=""
+          />
+          <p style="text-align: center">SONY</p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div>
+          <img
+            style="height: 170px"
+            src="https://m.media-amazon.com/images/I/71CmKZXntgL._SX679_.jpg"
+            alt=""
+          />
+          <p style="text-align: center">LG</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>copyrights received 2024</p>
+      <p>Contact:example@gmail.com</p>
+    </footer>
+  </body>
+</html>
